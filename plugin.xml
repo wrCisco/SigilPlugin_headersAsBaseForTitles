@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>headersAsBaseForTitles</name>
+  <type>edit</type>
+  <author>Francesco Martini</author>
+  <description>Add/modify title tags of selected xhtml files of an epub using
+  the text of the first most elevated h* tag inside the code of each file
+  filtered by a custom regex.</description>
+  <engine>python3.4</engine>
+  <version>0.1.0</version>
+  <autostart>true</autostart>
+  <autoclose>false</autoclose>
+  <oslist>osx,unx,win</oslist>
+</plugin>
